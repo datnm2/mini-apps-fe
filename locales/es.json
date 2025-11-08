@@ -1,0 +1,114 @@
+{
+  "common": {
+    "backToHome": "Volver al Inicio",
+    "allApps": "Todas las Aplicaciones",
+    "loading": "Cargando...",
+    "noData": "No hay datos disponibles"
+  },
+  "home": {
+    "title": "Centro de Mini Aplicaciones",
+    "subtitle": "Una colección de mini aplicaciones útiles construidas con Next.js 15",
+    "footer": "Construido con Next.js 15, TypeScript y Tailwind CSS"
+  },
+  "apps": {
+    "todo": {
+      "name": "Lista de Tareas",
+      "description": "Administra tus tareas diarias eficientemente",
+      "title": "Lista de Tareas",
+      "addPlaceholder": "Agregar una nueva tarea...",
+      "addButton": "Agregar",
+      "noTodos": "No hay tareas todavía. ¡Agrega una para comenzar!",
+      "total": "Total",
+      "completed": "Completado",
+      "pending": "Pendiente"
+    },
+    "calculator": {
+      "name": "Calculadora",
+      "description": "Calculadora simple para cálculos rápidos",
+      "title": "Calculadora",
+      "clear": "Borrar"
+    },
+    "weather": {
+      "name": "Clima",
+      "description": "Consulta pronósticos y condiciones del tiempo",
+      "title": "Clima",
+      "searchPlaceholder": "Ingrese nombre de la ciudad...",
+      "searchButton": "Buscar",
+      "loading": "Cargando datos del clima...",
+      "noData": "Ingrese un nombre de ciudad para obtener información del clima",
+      "humidity": "Humedad",
+      "windSpeed": "Velocidad del Viento",
+      "visibility": "Visibilidad",
+      "pressure": "Presión",
+      "condition": "Parcialmente Nublado"
+    },
+    "notes": {
+      "name": "Notas",
+      "description": "Aplicación rápida para tomar notas",
+      "title": "Notas",
+      "newNote": "Nueva Nota",
+      "editNote": "Editar Nota",
+      "titlePlaceholder": "Título de la nota...",
+      "contentPlaceholder": "Contenido de la nota...",
+      "addButton": "Agregar Nota",
+      "updateButton": "Actualizar Nota",
+      "cancel": "Cancelar",
+      "yourNotes": "Tus Notas",
+      "noNotes": "No hay notas todavía. ¡Crea tu primera nota!"
+    },
+    "timer": {
+      "name": "Temporizador",
+      "description": "Temporizador Pomodoro y cronómetro",
+      "title": "Temporizador Pomodoro",
+      "pomodoro": "Pomodoro",
+      "shortBreak": "Descanso Corto",
+      "longBreak": "Descanso Largo",
+      "start": "Iniciar",
+      "pause": "Pausar",
+      "reset": "Reiniciar",
+      "info": "Técnica Pomodoro:",
+      "infoText": "Trabaja durante 25 minutos, luego toma un descanso de 5 minutos. Después de 4 pomodoros, toma un descanso más largo de 15 minutos."
+    },
+    "calendar": {
+      "name": "Calendario",
+      "description": "Ver y gestionar tu horario",
+      "title": "Calendario",
+      "selectedDate": "Fecha Seleccionada",
+      "goToToday": "Ir a Hoy",
+      "days": ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+      "months": [
+        "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
+        "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+      ]
+    },
+    "taxcalc": {
+      "name": "Calc. Impuestos VN",
+      "description": "Calcular impuestos y seguros de salario Vietnam",
+      "title": "Calculadora de Impuestos de Vietnam",
+      "mode": "Modo de Cálculo",
+      "grossToNet": "Bruto → Neto",
+      "netToGross": "Neto → Bruto",
+      "inputSection": "Información de Entrada",
+      "grossSalary": "Salario Bruto",
+      "netSalary": "Salario Neto",
+      "dependents": "Número de Dependientes",
+      "results": "Resultados del Cálculo",
+      "breakdown": "Desglose Detallado",
+      "socialInsurance": "Seguro Social (8%)",
+      "healthInsurance": "Seguro de Salud (1.5%)",
+      "unemploymentIns": "Seguro de Desempleo (1%)",
+      "totalInsurance": "Seguro Total",
+      "personalDeduction": "Deducción Personal",
+      "dependentDeduction": "Deducción por Dependiente",
+      "taxableIncome": "Ingreso Imponible",
+      "personalIncomeTax": "Impuesto sobre la Renta",
+      "finalAmount": "Cantidad Final",
+      "taxBrackets": "Tramos Fiscales Aplicados",
+      "note": "Nota",
+      "noteText": "Cálculos según regulaciones fiscales de Vietnam 2025. SI/HI límite 46.8M VND. UI usa salario bruto (sin límite).",
+      "calculate": "Calcular",
+      "customInsuranceBase": "Base de Seguro Personalizada (opcional)",
+      "insuranceBase": "Salario Base para Seguros"
+    }
+  }
+}

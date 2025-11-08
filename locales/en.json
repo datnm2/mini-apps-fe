@@ -1,0 +1,114 @@
+{
+  "common": {
+    "backToHome": "Back to Home",
+    "allApps": "All Apps",
+    "loading": "Loading...",
+    "noData": "No data available"
+  },
+  "home": {
+    "title": "Mini Apps Hub",
+    "subtitle": "A collection of useful mini applications built with Next.js 15",
+    "footer": "Built with Next.js 15, TypeScript, and Tailwind CSS"
+  },
+  "apps": {
+    "todo": {
+      "name": "Todo List",
+      "description": "Manage your daily tasks efficiently",
+      "title": "Todo List",
+      "addPlaceholder": "Add a new task...",
+      "addButton": "Add",
+      "noTodos": "No todos yet. Add one to get started!",
+      "total": "Total",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "calculator": {
+      "name": "Calculator",
+      "description": "Simple calculator for quick calculations",
+      "title": "Calculator",
+      "clear": "Clear"
+    },
+    "weather": {
+      "name": "Weather",
+      "description": "Check weather forecasts and conditions",
+      "title": "Weather",
+      "searchPlaceholder": "Enter city name...",
+      "searchButton": "Search",
+      "loading": "Loading weather data...",
+      "noData": "Enter a city name to get weather information",
+      "humidity": "Humidity",
+      "windSpeed": "Wind Speed",
+      "visibility": "Visibility",
+      "pressure": "Pressure",
+      "condition": "Partly Cloudy"
+    },
+    "notes": {
+      "name": "Notes",
+      "description": "Quick note-taking application",
+      "title": "Notes",
+      "newNote": "New Note",
+      "editNote": "Edit Note",
+      "titlePlaceholder": "Note title...",
+      "contentPlaceholder": "Note content...",
+      "addButton": "Add Note",
+      "updateButton": "Update Note",
+      "cancel": "Cancel",
+      "yourNotes": "Your Notes",
+      "noNotes": "No notes yet. Create your first note!"
+    },
+    "timer": {
+      "name": "Timer",
+      "description": "Pomodoro timer and stopwatch",
+      "title": "Pomodoro Timer",
+      "pomodoro": "Pomodoro",
+      "shortBreak": "Short Break",
+      "longBreak": "Long Break",
+      "start": "Start",
+      "pause": "Pause",
+      "reset": "Reset",
+      "info": "Pomodoro Technique:",
+      "infoText": "Work for 25 minutes, then take a 5-minute break. After 4 pomodoros, take a longer 15-minute break."
+    },
+    "calendar": {
+      "name": "Calendar",
+      "description": "View and manage your schedule",
+      "title": "Calendar",
+      "selectedDate": "Selected Date",
+      "goToToday": "Go to Today",
+      "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+      "months": [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+      ]
+    },
+    "taxcalc": {
+      "name": "VN Tax Calculator",
+      "description": "Calculate Vietnam salary tax and insurance",
+      "title": "Vietnam Tax Calculator",
+      "mode": "Calculation Mode",
+      "grossToNet": "Gross → Net",
+      "netToGross": "Net → Gross",
+      "inputSection": "Input Information",
+      "grossSalary": "Gross Salary",
+      "netSalary": "Net Salary",
+      "dependents": "Number of Dependents",
+      "results": "Calculation Results",
+      "breakdown": "Detailed Breakdown",
+      "socialInsurance": "Social Insurance (8%)",
+      "healthInsurance": "Health Insurance (1.5%)",
+      "unemploymentIns": "Unemployment Insurance (1%)",
+      "totalInsurance": "Total Insurance",
+      "personalDeduction": "Personal Deduction",
+      "dependentDeduction": "Dependent Deduction",
+      "taxableIncome": "Taxable Income",
+      "personalIncomeTax": "Personal Income Tax",
+      "finalAmount": "Final Amount",
+      "taxBrackets": "Tax Brackets Applied",
+      "note": "Note",
+      "noteText": "Calculations based on Vietnam tax regulations 2025. SI/HI capped at 46.8M VND. UI uses gross salary (no cap).",
+      "calculate": "Calculate",
+      "customInsuranceBase": "Custom Insurance Base (optional)",
+      "insuranceBase": "Insurance Base Salary"
+    }
+  }
+}

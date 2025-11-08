@@ -1,0 +1,114 @@
+{
+  "common": {
+    "backToHome": "Về Trang Chủ",
+    "allApps": "Tất Cả Ứng Dụng",
+    "loading": "Đang tải...",
+    "noData": "Không có dữ liệu"
+  },
+  "home": {
+    "title": "Trung Tâm Ứng Dụng Mini",
+    "subtitle": "Bộ sưu tập các ứng dụng mini hữu ích được xây dựng bằng Next.js 15",
+    "footer": "Được xây dựng với Next.js 15, TypeScript và Tailwind CSS"
+  },
+  "apps": {
+    "todo": {
+      "name": "Danh Sách Việc Cần Làm",
+      "description": "Quản lý công việc hàng ngày hiệu quả",
+      "title": "Danh Sách Việc Cần Làm",
+      "addPlaceholder": "Thêm công việc mới...",
+      "addButton": "Thêm",
+      "noTodos": "Chưa có công việc nào. Hãy thêm một công việc!",
+      "total": "Tổng",
+      "completed": "Hoàn thành",
+      "pending": "Đang chờ"
+    },
+    "calculator": {
+      "name": "Máy Tính",
+      "description": "Máy tính đơn giản cho tính toán nhanh",
+      "title": "Máy Tính",
+      "clear": "Xóa"
+    },
+    "weather": {
+      "name": "Thời Tiết",
+      "description": "Kiểm tra dự báo và điều kiện thời tiết",
+      "title": "Thời Tiết",
+      "searchPlaceholder": "Nhập tên thành phố...",
+      "searchButton": "Tìm kiếm",
+      "loading": "Đang tải dữ liệu thời tiết...",
+      "noData": "Nhập tên thành phố để xem thông tin thời tiết",
+      "humidity": "Độ ẩm",
+      "windSpeed": "Tốc độ gió",
+      "visibility": "Tầm nhìn",
+      "pressure": "Áp suất",
+      "condition": "Có mây một phần"
+    },
+    "notes": {
+      "name": "Ghi Chú",
+      "description": "Ứng dụng ghi chú nhanh",
+      "title": "Ghi Chú",
+      "newNote": "Ghi Chú Mới",
+      "editNote": "Chỉnh Sửa Ghi Chú",
+      "titlePlaceholder": "Tiêu đề ghi chú...",
+      "contentPlaceholder": "Nội dung ghi chú...",
+      "addButton": "Thêm Ghi Chú",
+      "updateButton": "Cập Nhật Ghi Chú",
+      "cancel": "Hủy",
+      "yourNotes": "Ghi Chú Của Bạn",
+      "noNotes": "Chưa có ghi chú nào. Tạo ghi chú đầu tiên của bạn!"
+    },
+    "timer": {
+      "name": "Đồng Hồ Bấm Giờ",
+      "description": "Đồng hồ Pomodoro và bấm giờ",
+      "title": "Đồng Hồ Pomodoro",
+      "pomodoro": "Pomodoro",
+      "shortBreak": "Nghỉ Ngắn",
+      "longBreak": "Nghỉ Dài",
+      "start": "Bắt đầu",
+      "pause": "Tạm dừng",
+      "reset": "Đặt lại",
+      "info": "Kỹ thuật Pomodoro:",
+      "infoText": "Làm việc trong 25 phút, sau đó nghỉ 5 phút. Sau 4 pomodoro, nghỉ dài hơn 15 phút."
+    },
+    "calendar": {
+      "name": "Lịch",
+      "description": "Xem và quản lý lịch trình của bạn",
+      "title": "Lịch",
+      "selectedDate": "Ngày Đã Chọn",
+      "goToToday": "Về Hôm Nay",
+      "days": ["CN", "T2", "T3", "T4", "T5", "T6", "T7"],
+      "months": [
+        "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6",
+        "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"
+      ]
+    },
+    "taxcalc": {
+      "name": "Tính Thuế VN",
+      "description": "Tính thuế thu nhập và bảo hiểm lương Việt Nam",
+      "title": "Tính Thuế Thu Nhập Cá Nhân",
+      "mode": "Chế Độ Tính",
+      "grossToNet": "Gross → Net",
+      "netToGross": "Net → Gross",
+      "inputSection": "Thông Tin Đầu Vào",
+      "grossSalary": "Lương Gross",
+      "netSalary": "Lương Net",
+      "dependents": "Số Người Phụ Thuộc",
+      "results": "Kết Quả Tính Toán",
+      "breakdown": "Chi Tiết Các Khoản",
+      "socialInsurance": "BHXH (8%)",
+      "healthInsurance": "BHYT (1.5%)",
+      "unemploymentIns": "BHTN (1%)",
+      "totalInsurance": "Tổng Bảo Hiểm",
+      "personalDeduction": "Giảm Trừ Bản Thân",
+      "dependentDeduction": "Giảm Trừ Người Phụ Thuộc",
+      "taxableIncome": "Thu Nhập Tính Thuế",
+      "personalIncomeTax": "Thuế TNCN",
+      "finalAmount": "Số Tiền Cuối Cùng",
+      "taxBrackets": "Bậc Thuế Áp Dụng",
+      "note": "Lưu Ý",
+      "noteText": "Tính toán theo quy định thuế VN 2025. BHXH/BHYT giới hạn 46.8M VNĐ. BHTN tính trên lương gross (không giới hạn).",
+      "calculate": "Tính Toán",
+      "customInsuranceBase": "Mức Đóng BHXH Tùy Chỉnh (tùy chọn)",
+      "insuranceBase": "Mức Lương Đóng Bảo Hiểm"
+    }
+  }
+}
