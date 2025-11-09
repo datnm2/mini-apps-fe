@@ -82,7 +82,8 @@
       "noteText": "Calculations based on Vietnam tax regulations 2025. SI/HI capped at 46.8M VND. UI uses gross salary (no cap).",
       "calculate": "Calculate",
       "customInsuranceBase": "Custom Insurance Base (optional)",
-      "insuranceBase": "Insurance Base Salary"
+      "insuranceBase": "Insurance Base Salary",
+      "emptyState": "Enter salary information and click calculate to see results"
     }
   }
 }

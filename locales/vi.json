@@ -82,7 +82,8 @@
       "noteText": "Tính toán theo quy định thuế VN 2025. BHXH/BHYT giới hạn 46.8M VNĐ. BHTN tính trên lương gross (không giới hạn).",
       "calculate": "Tính Toán",
       "customInsuranceBase": "Mức Đóng BHXH Tùy Chỉnh (tùy chọn)",
-      "insuranceBase": "Mức Lương Đóng Bảo Hiểm"
+      "insuranceBase": "Mức Lương Đóng Bảo Hiểm",
+      "emptyState": "Nhập thông tin lương và nhấn tính toán để xem kết quả"
     }
   }
 }

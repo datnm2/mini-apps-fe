@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DollarSign, ArrowRight } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -227,12 +227,15 @@ export default function TaxCalculatorApp() {
               <button
                 onClick={() => {
                   setMode("grossToNet");
-                  // Auto-calculate if we have values
+                  // Preserve values and auto-calculate if we have gross value
                   if (grossRaw && parseFloat(grossRaw) > 0) {
                     const customInsBase = useCustomInsurance && customInsRaw
                       ? parseFloat(customInsRaw)
                       : undefined;
                     updateFromResult(calculateGrossToNet(parseFloat(grossRaw), dependents, customInsBase));
+                  } else if (result) {
+                    // Keep existing result when switching modes
+                    setResult(result);
                   }
                 }}
                 className={`flex-1 py-3 rounded-lg font-semibold transition-colors ${
@@ -246,12 +249,15 @@ export default function TaxCalculatorApp() {
               <button
                 onClick={() => {
                   setMode("netToGross");
-                  // Auto-calculate if we have values
+                  // Preserve values and auto-calculate if we have net value
                   if (netRaw && parseFloat(netRaw) > 0) {
                     const customInsBase = useCustomInsurance && customInsRaw
                       ? parseFloat(customInsRaw)
                       : undefined;
                     updateFromResult(calculateNetToGross(parseFloat(netRaw), dependents, customInsBase));
+                  } else if (result) {
+                    // Keep existing result when switching modes
+                    setResult(result);
                   }
                 }}
                 className={`flex-1 py-3 rounded-lg font-semibold transition-colors ${
@@ -427,7 +433,7 @@ export default function TaxCalculatorApp() {
             </>
           ) : (
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-12 text-center text-gray-500 dark:text-gray-400">
-              Enter salary information and click calculate to see results
+              {t("apps.taxcalc.emptyState")}
             </div>
           )}
         </div>
