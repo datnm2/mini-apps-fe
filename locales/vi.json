@@ -42,20 +42,6 @@
       "pressure": "Áp suất",
       "condition": "Có mây một phần"
     },
-    "notes": {
-      "name": "Ghi Chú",
-      "description": "Ứng dụng ghi chú nhanh",
-      "title": "Ghi Chú",
-      "newNote": "Ghi Chú Mới",
-      "editNote": "Chỉnh Sửa Ghi Chú",
-      "titlePlaceholder": "Tiêu đề ghi chú...",
-      "contentPlaceholder": "Nội dung ghi chú...",
-      "addButton": "Thêm Ghi Chú",
-      "updateButton": "Cập Nhật Ghi Chú",
-      "cancel": "Hủy",
-      "yourNotes": "Ghi Chú Của Bạn",
-      "noNotes": "Chưa có ghi chú nào. Tạo ghi chú đầu tiên của bạn!"
-    },
     "timer": {
       "name": "Đồng Hồ Bấm Giờ",
       "description": "Đồng hồ Pomodoro và bấm giờ",
@@ -68,18 +54,6 @@
       "reset": "Đặt lại",
       "info": "Kỹ thuật Pomodoro:",
       "infoText": "Làm việc trong 25 phút, sau đó nghỉ 5 phút. Sau 4 pomodoro, nghỉ dài hơn 15 phút."
-    },
-    "calendar": {
-      "name": "Lịch",
-      "description": "Xem và quản lý lịch trình của bạn",
-      "title": "Lịch",
-      "selectedDate": "Ngày Đã Chọn",
-      "goToToday": "Về Hôm Nay",
-      "days": ["CN", "T2", "T3", "T4", "T5", "T6", "T7"],
-      "months": [
-        "Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6",
-        "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"
-      ]
     },
     "taxcalc": {
       "name": "Tính Thuế VN",

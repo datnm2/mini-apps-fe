@@ -5,7 +5,8 @@
       "Bash(npm install:*)",
       "Bash(npm run dev:*)",
       "WebSearch",
-      "WebFetch(domain:lawnet.vn)"
+      "WebFetch(domain:lawnet.vn)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

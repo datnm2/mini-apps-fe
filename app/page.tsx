@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Calculator, CheckSquare, Cloud, Calendar, Timer, FileText, DollarSign } from "lucide-react";
+import { Calculator, CheckSquare, Cloud, Timer, DollarSign } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 
@@ -9,9 +9,7 @@ const appIcons = {
   todo: CheckSquare,
   calculator: Calculator,
   weather: Cloud,
-  notes: FileText,
   timer: Timer,
-  calendar: Calendar,
   taxcalc: DollarSign,
 };
 
@@ -19,9 +17,7 @@ const appColors = {
   todo: "bg-blue-500",
   calculator: "bg-green-500",
   weather: "bg-purple-500",
-  notes: "bg-yellow-500",
   timer: "bg-red-500",
-  calendar: "bg-indigo-500",
   taxcalc: "bg-emerald-500",
 };
 
@@ -48,22 +44,10 @@ export default function Home() {
       href: "/apps/weather"
     },
     {
-      id: "notes",
-      name: t("apps.notes.name"),
-      description: t("apps.notes.description"),
-      href: "/apps/notes"
-    },
-    {
       id: "timer",
       name: t("apps.timer.name"),
       description: t("apps.timer.description"),
       href: "/apps/timer"
-    },
-    {
-      id: "calendar",
-      name: t("apps.calendar.name"),
-      description: t("apps.calendar.description"),
-      href: "/apps/calendar"
     },
     {
       id: "taxcalc",

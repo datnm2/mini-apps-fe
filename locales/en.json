@@ -42,20 +42,6 @@
       "pressure": "Pressure",
       "condition": "Partly Cloudy"
     },
-    "notes": {
-      "name": "Notes",
-      "description": "Quick note-taking application",
-      "title": "Notes",
-      "newNote": "New Note",
-      "editNote": "Edit Note",
-      "titlePlaceholder": "Note title...",
-      "contentPlaceholder": "Note content...",
-      "addButton": "Add Note",
-      "updateButton": "Update Note",
-      "cancel": "Cancel",
-      "yourNotes": "Your Notes",
-      "noNotes": "No notes yet. Create your first note!"
-    },
     "timer": {
       "name": "Timer",
       "description": "Pomodoro timer and stopwatch",
@@ -68,18 +54,6 @@
       "reset": "Reset",
       "info": "Pomodoro Technique:",
       "infoText": "Work for 25 minutes, then take a 5-minute break. After 4 pomodoros, take a longer 15-minute break."
-    },
-    "calendar": {
-      "name": "Calendar",
-      "description": "View and manage your schedule",
-      "title": "Calendar",
-      "selectedDate": "Selected Date",
-      "goToToday": "Go to Today",
-      "days": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-      "months": [
-        "January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"
-      ]
     },
     "taxcalc": {
       "name": "VN Tax Calculator",

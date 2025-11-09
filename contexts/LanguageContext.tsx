@@ -3,9 +3,8 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import en from "@/locales/en.json";
 import vi from "@/locales/vi.json";
-import es from "@/locales/es.json";
 
-type Locale = "en" | "vi" | "es";
+type Locale = "en" | "vi";
 
 interface LanguageContextType {
   locale: Locale;
@@ -16,7 +15,6 @@ interface LanguageContextType {
 const translations: Record<Locale, any> = {
   en,
   vi,
-  es,
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -29,6 +27,15 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     const savedLocale = localStorage.getItem("locale") as Locale;
     if (savedLocale && translations[savedLocale]) {
       setLocaleState(savedLocale);
+    } else {
+      // Auto-detect browser language on first visit
+      const browserLang = navigator.language.toLowerCase();
+      // Check if browser language starts with 'vi' for Vietnamese
+      if (browserLang.startsWith('vi')) {
+        setLocaleState('vi');
+        localStorage.setItem("locale", 'vi');
+      }
+      // Default to English for all other languages
     }
   }, []);
 
