@@ -8,7 +8,16 @@
   "home": {
     "title": "Trung Tâm Ứng Dụng Mini",
     "subtitle": "Bộ sưu tập các ứng dụng mini hữu ích được xây dựng bằng Next.js 15",
-    "footer": "Được xây dựng với Next.js 15, TypeScript và Tailwind CSS"
+    "footer": "Được xây dựng với Next.js 15, TypeScript và Tailwind CSS",
+    "cta": {
+      "title": "Bạn Có Ý Tưởng Ứng Dụng?",
+      "subtitle": "Tôi có thể xây dựng nhanh chóng!",
+      "description": "Chia sẻ ý tưởng ứng dụng và vấn đề nó giải quyết. Tôi sẽ biến nó thành hiện thực.",
+      "button": "Chia Sẻ Ý Tưởng",
+      "emailHint": "nmdat.it@gmail.com",
+      "emailSubject": "Ý Tưởng Ứng Dụng Mới",
+      "emailBody": "Xin chào,\n\nTôi có một ý tưởng ứng dụng:\n\nTên ứng dụng: [Tên ứng dụng của bạn]\n\nVấn đề cần giải quyết:\n[Mô tả vấn đề hoặc pain point]\n\nMô tả ứng dụng:\n[Mô tả ý tưởng của bạn]\n\nCảm ơn bạn!"
+    }
   },
   "apps": {
     "todo": {
@@ -84,6 +93,20 @@
       "customInsuranceBase": "Mức Đóng BHXH Tùy Chỉnh (tùy chọn)",
       "insuranceBase": "Mức Lương Đóng Bảo Hiểm",
       "emptyState": "Nhập thông tin lương và nhấn tính toán để xem kết quả"
+    },
+    "godquote": {
+      "name": "Lời Khuyên Thần Thánh",
+      "description": "Nhận lời khuyên động viên cá nhân hóa",
+      "title": "Thượng Đế Muốn Nói Gì Với Bạn",
+      "subtitle": "Nhận trí tuệ thần thánh và động lực được cá nhân hóa dành riêng cho bạn",
+      "nameLabel": "Tên của bạn là gì?",
+      "namePlaceholder": "Nhập tên của bạn...",
+      "button": "Nhận Lời Nhắn Của Tôi",
+      "revealing": "Đang tiết lộ lời nhắn của bạn...",
+      "greeting": "Thân gửi",
+      "message": "Đây là thông điệp trí tuệ dành cho bạn:",
+      "another": "Nhận Thông Điệp Khác",
+      "info": "Trí tuệ từ những bộ óc vĩ đại trong lịch sử - triết gia, nhà lãnh đạo và những người có tầm nhìn đã thay đổi thế giới."
     }
   }
 }

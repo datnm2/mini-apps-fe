@@ -8,7 +8,16 @@
   "home": {
     "title": "Mini Apps Hub",
     "subtitle": "A collection of useful mini applications built with Next.js 15",
-    "footer": "Built with Next.js 15, TypeScript, and Tailwind CSS"
+    "footer": "Built with Next.js 15, TypeScript, and Tailwind CSS",
+    "cta": {
+      "title": "Have an App Idea?",
+      "subtitle": "I can build it quickly!",
+      "description": "Share your app idea and the problem it solves. I'll turn it into reality.",
+      "button": "Share Your Idea",
+      "emailHint": "nmdat.it@gmail.com",
+      "emailSubject": "New App Idea Submission",
+      "emailBody": "Hi,\n\nI have an app idea:\n\nApp Name: [Your app name]\n\nProblem it solves:\n[Describe the pain point or problem]\n\nApp Description:\n[Describe your idea]\n\nThank you!"
+    }
   },
   "apps": {
     "todo": {
@@ -84,6 +93,20 @@
       "customInsuranceBase": "Custom Insurance Base (optional)",
       "insuranceBase": "Insurance Base Salary",
       "emptyState": "Enter salary information and click calculate to see results"
+    },
+    "godquote": {
+      "name": "Divine Wisdom",
+      "description": "Receive personalized motivational wisdom",
+      "title": "What God Gonna Tell You",
+      "subtitle": "Receive divine wisdom and motivation personalized just for you",
+      "nameLabel": "What's your name?",
+      "namePlaceholder": "Enter your name...",
+      "button": "Receive My Message",
+      "revealing": "Revealing your message...",
+      "greeting": "Dear",
+      "message": "Here is a message of wisdom for you:",
+      "another": "Get Another Message",
+      "info": "Wisdom from great minds throughout history - philosophers, leaders, and visionaries who changed the world."
     }
   }
 }
