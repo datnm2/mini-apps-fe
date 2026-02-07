@@ -20,50 +20,6 @@
     }
   },
   "apps": {
-    "todo": {
-      "name": "Danh Sách Việc Cần Làm",
-      "description": "Quản lý công việc hàng ngày hiệu quả",
-      "title": "Danh Sách Việc Cần Làm",
-      "addPlaceholder": "Thêm công việc mới...",
-      "addButton": "Thêm",
-      "noTodos": "Chưa có công việc nào. Hãy thêm một công việc!",
-      "total": "Tổng",
-      "completed": "Hoàn thành",
-      "pending": "Đang chờ"
-    },
-    "calculator": {
-      "name": "Máy Tính",
-      "description": "Máy tính đơn giản cho tính toán nhanh",
-      "title": "Máy Tính",
-      "clear": "Xóa"
-    },
-    "weather": {
-      "name": "Thời Tiết",
-      "description": "Kiểm tra dự báo và điều kiện thời tiết",
-      "title": "Thời Tiết",
-      "searchPlaceholder": "Nhập tên thành phố...",
-      "searchButton": "Tìm kiếm",
-      "loading": "Đang tải dữ liệu thời tiết...",
-      "noData": "Nhập tên thành phố để xem thông tin thời tiết",
-      "humidity": "Độ ẩm",
-      "windSpeed": "Tốc độ gió",
-      "visibility": "Tầm nhìn",
-      "pressure": "Áp suất",
-      "condition": "Có mây một phần"
-    },
-    "timer": {
-      "name": "Đồng Hồ Bấm Giờ",
-      "description": "Đồng hồ Pomodoro và bấm giờ",
-      "title": "Đồng Hồ Pomodoro",
-      "pomodoro": "Pomodoro",
-      "shortBreak": "Nghỉ Ngắn",
-      "longBreak": "Nghỉ Dài",
-      "start": "Bắt đầu",
-      "pause": "Tạm dừng",
-      "reset": "Đặt lại",
-      "info": "Kỹ thuật Pomodoro:",
-      "infoText": "Làm việc trong 25 phút, sau đó nghỉ 5 phút. Sau 4 pomodoro, nghỉ dài hơn 15 phút."
-    },
     "taxcalc": {
       "name": "Tính Thuế VN",
       "description": "Tính thuế thu nhập và bảo hiểm lương Việt Nam",
@@ -107,6 +63,10 @@
       "message": "Đây là thông điệp trí tuệ dành cho bạn:",
       "another": "Nhận Thông Điệp Khác",
       "info": "Trí tuệ từ những bộ óc vĩ đại trong lịch sử - triết gia, nhà lãnh đạo và những người có tầm nhìn đã thay đổi thế giới."
+    },
+    "bongda": {
+      "name": "Bóng Đá Phủi",
+      "description": "Ứng dụng quản lý đội bóng đá phủi"
     }
   }
 }

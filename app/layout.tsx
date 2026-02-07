@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     default: "Mini Apps Hub - Free Online Tools & Utilities",
     template: "%s | Mini Apps Hub"
   },
-  description: "Free online tools and utilities: Todo List, Calculator, Weather, Pomodoro Timer, and Vietnam Tax Calculator. Built with Next.js 15 - Fast, responsive, and easy to use.",
-  keywords: ["online tools", "free utilities", "todo list", "calculator", "weather app", "pomodoro timer", "vietnam tax calculator", "salary calculator", "mini apps"],
+  description: "Free online tools and utilities: Vietnam Tax Calculator, Divine Wisdom, and Football Manager. Built with Next.js 15 - Fast, responsive, and easy to use.",
+  keywords: ["online tools", "free utilities", "vietnam tax calculator", "salary calculator", "divine wisdom", "football manager", "bóng đá phủi", "mini apps"],
   authors: [{ name: "Mini Apps Hub" }],
   creator: "Mini Apps Hub",
   publisher: "Mini Apps Hub",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "Mini Apps Hub",
     title: "Mini Apps Hub - Free Online Tools & Utilities",
-    description: "Free online tools: Todo List, Calculator, Weather, Pomodoro Timer, Vietnam Tax Calculator. Fast and easy to use.",
+    description: "Free online tools: Vietnam Tax Calculator, Divine Wisdom, and Football Manager. Fast and easy to use.",
     images: [
       {
         url: `${siteUrl}/og-image.png`,
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mini Apps Hub - Free Online Tools & Utilities",
-    description: "Free online tools: Todo List, Calculator, Weather, Pomodoro Timer, Vietnam Tax Calculator",
+    description: "Free online tools: Vietnam Tax Calculator, Divine Wisdom, and Football Manager",
     images: [`${siteUrl}/og-image.png`]
   },
   robots: {

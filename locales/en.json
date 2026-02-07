@@ -20,50 +20,6 @@
     }
   },
   "apps": {
-    "todo": {
-      "name": "Todo List",
-      "description": "Manage your daily tasks efficiently",
-      "title": "Todo List",
-      "addPlaceholder": "Add a new task...",
-      "addButton": "Add",
-      "noTodos": "No todos yet. Add one to get started!",
-      "total": "Total",
-      "completed": "Completed",
-      "pending": "Pending"
-    },
-    "calculator": {
-      "name": "Calculator",
-      "description": "Simple calculator for quick calculations",
-      "title": "Calculator",
-      "clear": "Clear"
-    },
-    "weather": {
-      "name": "Weather",
-      "description": "Check weather forecasts and conditions",
-      "title": "Weather",
-      "searchPlaceholder": "Enter city name...",
-      "searchButton": "Search",
-      "loading": "Loading weather data...",
-      "noData": "Enter a city name to get weather information",
-      "humidity": "Humidity",
-      "windSpeed": "Wind Speed",
-      "visibility": "Visibility",
-      "pressure": "Pressure",
-      "condition": "Partly Cloudy"
-    },
-    "timer": {
-      "name": "Timer",
-      "description": "Pomodoro timer and stopwatch",
-      "title": "Pomodoro Timer",
-      "pomodoro": "Pomodoro",
-      "shortBreak": "Short Break",
-      "longBreak": "Long Break",
-      "start": "Start",
-      "pause": "Pause",
-      "reset": "Reset",
-      "info": "Pomodoro Technique:",
-      "infoText": "Work for 25 minutes, then take a 5-minute break. After 4 pomodoros, take a longer 15-minute break."
-    },
     "taxcalc": {
       "name": "VN Tax Calculator",
       "description": "Calculate Vietnam salary tax and insurance",
@@ -107,6 +63,10 @@
       "message": "Here is a message of wisdom for you:",
       "another": "Get Another Message",
       "info": "Wisdom from great minds throughout history - philosophers, leaders, and visionaries who changed the world."
+    },
+    "bongda": {
+      "name": "Football Manager",
+      "description": "Amateur football team management app"
     }
   }
 }
