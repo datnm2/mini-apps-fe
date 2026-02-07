@@ -6,7 +6,9 @@
       "Bash(npm run dev:*)",
       "WebSearch",
       "WebFetch(domain:lawnet.vn)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
