@@ -1,20 +1,17 @@
 "use client";
 
-import Link from "next/link";
-import { DollarSign, Lightbulb, Mail, Sparkles, ExternalLink, Trophy } from "lucide-react";
+import { Lightbulb, Mail, ExternalLink, Trophy, Spade } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const appIcons = {
-  taxcalc: DollarSign,
-  godquote: Sparkles,
-  bongda: Trophy,
+  zsquad: Trophy,
+  zpoker: Spade,
 };
 
 const appColors = {
-  taxcalc: "bg-emerald-500",
-  godquote: "bg-gradient-to-br from-yellow-400 to-orange-500",
-  bongda: "bg-gradient-to-br from-green-500 to-green-700",
+  zsquad: "bg-gradient-to-br from-green-500 to-green-700",
+  zpoker: "bg-gradient-to-br from-red-500 to-rose-700",
 };
 
 export default function Home() {
@@ -22,22 +19,17 @@ export default function Home() {
 
   const miniApps = [
     {
-      id: "taxcalc",
-      name: t("apps.taxcalc.name"),
-      description: t("apps.taxcalc.description"),
-      href: "/apps/taxcalc"
-    },
-    {
-      id: "godquote",
-      name: t("apps.godquote.name"),
-      description: t("apps.godquote.description"),
-      href: "/apps/godquote"
-    },
-    {
-      id: "bongda",
-      name: t("apps.bongda.name"),
-      description: t("apps.bongda.description"),
+      id: "zsquad",
+      name: t("apps.zsquad.name"),
+      description: t("apps.zsquad.description"),
       href: "https://bongda.dat09vn.com",
+      external: true
+    },
+    {
+      id: "zpoker",
+      name: t("apps.zpoker.name"),
+      description: t("apps.zpoker.description"),
+      href: "https://zpoker.dat09vn.com/session/b94f6446-25bb-4fba-8f3b-8b45b3a98b8d",
       external: true
     }
   ];
@@ -83,28 +75,16 @@ export default function Home() {
               </>
             );
 
-            if (app.external) {
-              return (
-                <a
-                  key={app.id}
-                  href={app.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2"
-                >
-                  {cardContent}
-                </a>
-              );
-            }
-
             return (
-              <Link
+              <a
                 key={app.id}
                 href={app.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2"
               >
                 {cardContent}
-              </Link>
+              </a>
             );
           })}
         </div>

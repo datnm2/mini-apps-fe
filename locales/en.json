@@ -20,53 +20,13 @@
     }
   },
   "apps": {
-    "taxcalc": {
-      "name": "VN Tax Calculator",
-      "description": "Calculate Vietnam salary tax and insurance",
-      "title": "Vietnam Tax Calculator",
-      "mode": "Calculation Mode",
-      "grossToNet": "Gross → Net",
-      "netToGross": "Net → Gross",
-      "inputSection": "Input Information",
-      "grossSalary": "Gross Salary",
-      "netSalary": "Net Salary",
-      "dependents": "Number of Dependents",
-      "results": "Calculation Results",
-      "breakdown": "Detailed Breakdown",
-      "socialInsurance": "Social Insurance (8%)",
-      "healthInsurance": "Health Insurance (1.5%)",
-      "unemploymentIns": "Unemployment Insurance (1%)",
-      "totalInsurance": "Total Insurance",
-      "personalDeduction": "Personal Deduction",
-      "dependentDeduction": "Dependent Deduction",
-      "taxableIncome": "Taxable Income",
-      "personalIncomeTax": "Personal Income Tax",
-      "finalAmount": "Final Amount",
-      "taxBrackets": "Tax Brackets Applied",
-      "note": "Note",
-      "noteText": "Calculations based on Vietnam tax regulations 2025. SI/HI capped at 46.8M VND. UI uses gross salary (no cap).",
-      "calculate": "Calculate",
-      "customInsuranceBase": "Custom Insurance Base (optional)",
-      "insuranceBase": "Insurance Base Salary",
-      "emptyState": "Enter salary information and click calculate to see results"
-    },
-    "godquote": {
-      "name": "Divine Wisdom",
-      "description": "Receive personalized motivational wisdom",
-      "title": "What God Gonna Tell You",
-      "subtitle": "Receive divine wisdom and motivation personalized just for you",
-      "nameLabel": "What's your name?",
-      "namePlaceholder": "Enter your name...",
-      "button": "Receive My Message",
-      "revealing": "Revealing your message...",
-      "greeting": "Dear",
-      "message": "Here is a message of wisdom for you:",
-      "another": "Get Another Message",
-      "info": "Wisdom from great minds throughout history - philosophers, leaders, and visionaries who changed the world."
-    },
-    "bongda": {
-      "name": "Football Manager",
+    "zsquad": {
+      "name": "ZSquad",
       "description": "Amateur football team management app"
+    },
+    "zpoker": {
+      "name": "ZPoker",
+      "description": "Join the live poker session"
     }
   }
 }

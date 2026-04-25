@@ -20,53 +20,13 @@
     }
   },
   "apps": {
-    "taxcalc": {
-      "name": "Tính Thuế VN",
-      "description": "Tính thuế thu nhập và bảo hiểm lương Việt Nam",
-      "title": "Tính Thuế Thu Nhập Cá Nhân",
-      "mode": "Chế Độ Tính",
-      "grossToNet": "Gross → Net",
-      "netToGross": "Net → Gross",
-      "inputSection": "Thông Tin Đầu Vào",
-      "grossSalary": "Lương Gross",
-      "netSalary": "Lương Net",
-      "dependents": "Số Người Phụ Thuộc",
-      "results": "Kết Quả Tính Toán",
-      "breakdown": "Chi Tiết Các Khoản",
-      "socialInsurance": "BHXH (8%)",
-      "healthInsurance": "BHYT (1.5%)",
-      "unemploymentIns": "BHTN (1%)",
-      "totalInsurance": "Tổng Bảo Hiểm",
-      "personalDeduction": "Giảm Trừ Bản Thân",
-      "dependentDeduction": "Giảm Trừ Người Phụ Thuộc",
-      "taxableIncome": "Thu Nhập Tính Thuế",
-      "personalIncomeTax": "Thuế TNCN",
-      "finalAmount": "Số Tiền Cuối Cùng",
-      "taxBrackets": "Bậc Thuế Áp Dụng",
-      "note": "Lưu Ý",
-      "noteText": "Tính toán theo quy định thuế VN 2025. BHXH/BHYT giới hạn 46.8M VNĐ. BHTN tính trên lương gross (không giới hạn).",
-      "calculate": "Tính Toán",
-      "customInsuranceBase": "Mức Đóng BHXH Tùy Chỉnh (tùy chọn)",
-      "insuranceBase": "Mức Lương Đóng Bảo Hiểm",
-      "emptyState": "Nhập thông tin lương và nhấn tính toán để xem kết quả"
-    },
-    "godquote": {
-      "name": "Lời Khuyên Thần Thánh",
-      "description": "Nhận lời khuyên động viên cá nhân hóa",
-      "title": "Thượng Đế Muốn Nói Gì Với Bạn",
-      "subtitle": "Nhận trí tuệ thần thánh và động lực được cá nhân hóa dành riêng cho bạn",
-      "nameLabel": "Tên của bạn là gì?",
-      "namePlaceholder": "Nhập tên của bạn...",
-      "button": "Nhận Lời Nhắn Của Tôi",
-      "revealing": "Đang tiết lộ lời nhắn của bạn...",
-      "greeting": "Thân gửi",
-      "message": "Đây là thông điệp trí tuệ dành cho bạn:",
-      "another": "Nhận Thông Điệp Khác",
-      "info": "Trí tuệ từ những bộ óc vĩ đại trong lịch sử - triết gia, nhà lãnh đạo và những người có tầm nhìn đã thay đổi thế giới."
-    },
-    "bongda": {
-      "name": "Bóng Đá Phủi",
+    "zsquad": {
+      "name": "ZSquad",
       "description": "Ứng dụng quản lý đội bóng đá phủi"
+    },
+    "zpoker": {
+      "name": "ZPoker",
+      "description": "Tham gia bàn poker trực tiếp"
     }
   }
 }
